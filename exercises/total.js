@@ -5,7 +5,16 @@
  * and return the total
  *
  */
-
+ 
+function total(x) {
+	let i=0;
+ 	let t=0;
+	while (i<x.length) {
+		t=t+x[i];
+		i++;
+	}
+	return t;
+}
 
 //* Begin of tests
 const assert = require('assert')
